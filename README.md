@@ -24,12 +24,12 @@ The relative path must be in the current file path
 ```python
 import dirpath
 dirpath.insert('pack',dir_index=0)
-from pack import func3
+from pack.abc import func3
 ```
 
 ### Change the environment priority
 ```python
 import dirpath
 dirpath.insert('pack',env_index=2)
-from pack import func4
+from pack.abc.ws import func4
 ```
