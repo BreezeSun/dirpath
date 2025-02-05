@@ -30,6 +30,6 @@ from pack import func3
 ### Change the environment priority
 ```python
 import dirpath
-dirpath.insert('pack',env_index=-1)
+dirpath.insert('pack',env_index=2)
 from pack import func4
 ```
